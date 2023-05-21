@@ -1,0 +1,39 @@
+The code above uses three Python packages:
+
+1. numpy: This is a package for numerical computations and is particularly useful for handling arrays and matrices.
+
+2. matplotlib: This is a comprehensive library for creating static, animated, and interactive visualizations in Python.
+
+3. mpl_toolkits: This is a part of matplotlib and provides tools for 3D plotting.
+
+You can install these packages using pip, which is the Python package installer. If you have Python installed on your system, you most likely have pip installed as well. Here is how you can install these packages:
+
+```bash
+pip install numpy
+pip install matplotlib
+```
+
+If you're using a Jupyter notebook, you can install these packages directly in a notebook cell by adding an exclamation mark before the commands:
+
+```bash
+!pip install numpy
+!pip install matplotlib
+```
+
+If you're running this on a system-wide Python installation, you might need administrator rights to install new packages. In that case, you can use the following commands:
+
+```bash
+sudo pip install numpy
+sudo pip install matplotlib
+```
+
+If you're using a Windows machine, you should run your command prompt as Administrator.
+
+For some users, it might be that pip points to the Python 2. If you have both Python 2 and Python 3 on your system, you might have to use pip3 instead of pip:
+
+```bash
+pip3 install numpy
+pip3 install matplotlib
+```
+
+And always remember, it is considered a best practice to use virtual environments to avoid interfering with the system-wide Python installation.
